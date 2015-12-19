@@ -1,0 +1,18 @@
+======
+v0.1.2:
+------
++ added general macros for all files
++ added testing backpacks
+/ code cleanup
+======
+v0.1.1:
+------
++ added cntoLogo.paa
+/ changed pbo restructure 
+/ updated signing of files
+- redundant comments
+======
+v0.1.0:
+------
+/ first private test of cnto_factions
+======
