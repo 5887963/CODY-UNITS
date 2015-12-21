@@ -38,6 +38,7 @@ class CfgVehicles {
 
 class CfgWeapons {
 	#include "CfgUniforms.hpp"
+	#include "CfgVests.hpp"
 };
 
 class CfgGroups {

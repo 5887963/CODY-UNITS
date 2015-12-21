@@ -12,11 +12,11 @@ class Indep
 			{
 				name = "Fireteam";
 				faction = "2035u_e796";
-				side = EAST;
+				side = RESISTANCE;
 				aliveCategory = "Infantry";
 				class Unit0
 				{
-					side = EAST;
+					side = RESISTANCE;
 					vehicle = "2035u_e796_Contractor";
 					rank = "Sergeant";
 					position[] = { 0, 0, 0 };
