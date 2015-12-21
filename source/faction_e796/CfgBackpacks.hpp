@@ -2,7 +2,7 @@
 
 class B_AssaultPack_blk;
 class 2035u_BP_e796_AssaultPack : B_AssaultPack_blk {
-	_generalMacro = "CNTO_BP_e796_AssaultPack";
+	_generalMacro = "2035u_BP_e796_AssaultPack";
 	scope = PROTECTED;
 	class TransportItems {
 		class _xx_hlc_30Rnd_556x45_B_AUG {
