@@ -1,17 +1,16 @@
 /*
-	CNTO Custom Factions | E-796 PMC Group
-	http://carpenoctem.co/
-	© 2014 - 2015 carpenoctem.co
+	Units of 2035 | E-796 PMC Group
+	https://github.com/CodyBurton
 	--------------------------------
 	This work is licensed under the GNU GENERAL PUBLIC LICENSE.
 	To view a copy of this license, visit http://www.gnu.org/licenses/gpl-3.0.en.html.
 */
 
-#include "\cnto_factions\GlobalMacros.hpp"
+#include "\2035_units\GlobalMacros.hpp"
 
 class CfgPatches {
 	class faction_e796 {
-		units[] = {"CNTO_e796_Contractor"};
+		units[] = {"2035u_e796_Contractor"};
 		weapons[] = {};
 		requiredVersion = 1.54;
 		requiredAddons[] = {};
@@ -21,7 +20,7 @@ class CfgPatches {
 };
 
 class CfgFactionClasses {
-	class CNTO_e796 {
+	class 2035u_e796 {
 		displayName = "E-796";
 		priority = 1;
 		side = RESISTANCE;

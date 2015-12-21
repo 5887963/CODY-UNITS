@@ -1,6 +1,6 @@
-#include "\cnto_factions\GlobalMacros.hpp"
+#include "\2035_units\GlobalMacros.hpp"
 
-class CNTO_Men {
+class 2035u_e796_Men {
 	displayName = "Men";
 	priority = 1
 };

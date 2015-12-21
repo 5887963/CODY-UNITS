@@ -1,7 +1,7 @@
-#include "\cnto_factions\GlobalMacros.hpp"
+#include "\2035_units\GlobalMacros.hpp"
 
 class B_AssaultPack_blk;
-class CNTO_BP_e796_AssaultPack : B_AssaultPack_blk {
+class 2035u_BP_e796_AssaultPack : B_AssaultPack_blk {
 	_generalMacro = "CNTO_BP_e796_AssaultPack";
 	scope = PROTECTED;
 	class TransportItems {

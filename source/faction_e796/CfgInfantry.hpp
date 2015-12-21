@@ -1,16 +1,16 @@
-#include "\cnto_factions\GlobalMacros.hpp"
+#include "\2035_units\GlobalMacros.hpp"
 
 class B_Soldier_base_F;
 class B_Carryall_Base;
 class B_BLK_BLK_soldier_F;
-class CNTO_e796_Contractor : B_BLK_BLK_soldier_F
+class 2035u_e796_Contractor : B_BLK_BLK_soldier_F
 {
 	side = EAST;
-	faction = "CNTO_e796";
+	faction = "2035u_e796";
 	backpack = "B_AssaultPack_blk";
-	vehicleclass = "CNTO_Men";
+	vehicleclass = "2035u_e796_Men";
 	author = "Cody Burton";
-	_generalMacro = "CNTO_e796_Contractor";
+	_generalMacro = "2035u_e796_Contractor";
 	scope = PUBLIC;
 	displayName = "Contractor";
 	weapons[] = {
@@ -73,9 +73,9 @@ class CNTO_e796_Contractor : B_BLK_BLK_soldier_F
 		"ItemWatch",
 		"ItemRadio"
 	};
-	uniformClass = "CNTO_U_e796_CombatFatigues";
+	uniformClass = "2035u_U_e796_CombatFatigues";
 	camouflage = 2.0;
 	hiddenSelections[] = { "camo" };
-	HiddenSelectionsTextures[] = { "\faction_e796\data\CNTO_U_e796_CombatFatigues.paa" };
+	HiddenSelectionsTextures[] = { "\faction_e796\data\2035u_U_e796_CombatFatigues.paa" };
 	icon = "iconMan"
 };

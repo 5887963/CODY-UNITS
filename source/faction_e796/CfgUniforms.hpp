@@ -1,8 +1,8 @@
-#include "\cnto_factions\GlobalMacros.hpp"
+#include "\2035_units\GlobalMacros.hpp"
 
 class Uniform_Base;
 class UniformItem;
-class CNTO_U_e796_CombatFatigues : Uniform_Base
+class 2035u_U_e796_CombatFatigues : Uniform_Base
 {
 	scope = PUBLIC;
 	displayName = "E-796 Combat Fatigues";
@@ -12,7 +12,7 @@ class CNTO_U_e796_CombatFatigues : Uniform_Base
 	class ItemInfo : UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = "CNTO_e796_Contractor";
+		uniformClass = "2035u_e796_Contractor";
 		containerClass = "Supply40";
 		mass = 40;
 	};

@@ -1,7 +1,7 @@
-#include "\cnto_factions\GlobalMacros.hpp"
+#include "\2035_units\GlobalMacros.hpp"
 
 class GenericNames {
-	class cnto_e796_names {
+	class 2035u_e796_names {
 		class FirstNames {
 			e796 = "E-796";
 		};
