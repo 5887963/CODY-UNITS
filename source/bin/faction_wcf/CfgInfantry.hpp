@@ -1,27 +1,20 @@
 #include "\cody_units\GlobalMacros.hpp"
 
-class B_CTRG_Soldier_tna_F;
-class codyu_wcf_Rifleman : B_CTRG_Soldier_tna_F
+class B_Soldier_F;
+class codyu_wcf_Rifleman : B_Soldier_F
 {
 	_generalMacro = "codyu_wcf_Rifleman";
 	author = "Cody Burton";
 	camouflage = 2.0;
 	displayName = "Rifleman";
 	faction = "codyu_wcf";
+	hiddenSelections[] = { "camo" };
+	hiddenSelectionsTextures[] = {"\faction_wcf\data\codyu_wcf_CombatFatigues.paa"};
 	icon = "iconMan";
+	linkedItems[] = {"H_HelmetB","codyu_wcf_CombatVest","G_Balaclava_TI_G_blk_F","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	side = WEST;
 	scope = PUBLIC;
-	vehicleclass = "codyu_wcf_Men";
-	/*
-	model = "\A3\characters_f\BLUFOR\b_soldier_01.p3d";
-	weapons[] = {};
-	respawnWeapons[] = {};
-	magazines[] = {};
-	respawnMagazines[] = {};
-	linkedItems[] = { "codyu_wcf_CombatVest" };
-	respawnLinkedItems[] = {};
 	uniformClass = "codyu_wcf_CombatFatigues";
-	hiddenSelections[] = { "camo" };
-	HiddenSelectionsTextures[] = { "\faction_wcf\data\codyu_wcf_CombatFatigues.paa" };
-	*/
+	vehicleclass = "codyu_wcf_Men";
+	weapons[] = {"arifle_CTAR_blk_F","hgun_P07_F","Throw","Put"};
 };
