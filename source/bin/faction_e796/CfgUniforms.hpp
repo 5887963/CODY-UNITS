@@ -1,8 +1,8 @@
-#include "\2035_units\GlobalMacros.hpp"
+#include "\cody_units\GlobalMacros.hpp"
 
 class Uniform_Base;
 class UniformItem;
-class 2035u_e796_CombatFatigues : Uniform_Base
+class codyu_e796_CombatFatigues : Uniform_Base
 {
 	scope = PUBLIC;
 	displayName = "E796 Combat Fatigues";
@@ -12,7 +12,7 @@ class 2035u_e796_CombatFatigues : Uniform_Base
 	class ItemInfo : UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = "2035u_e796_Contractor";
+		uniformClass = "codyu_e796_Contractor";
 		containerClass = "Supply40";
 		mass = 40;
 	};
