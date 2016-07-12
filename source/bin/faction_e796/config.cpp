@@ -1,5 +1,5 @@
 /*
-	Units of 2035 | E-796 PMC Group
+	Units of 2035 | E796 PMC Group
 	https://github.com/CodyBurton
 	--------------------------------
 	This work is licensed under the GNU GENERAL PUBLIC LICENSE.
@@ -21,7 +21,7 @@ class CfgPatches {
 
 class CfgFactionClasses {
 	class 2035u_e796 {
-		displayName = "E-796";
+		displayName = "E796 PMC";
 		priority = 1;
 		side = RESISTANCE;
 		icon = "\faction_e796\data\cfgfactionclasses_e796_ca.paa";

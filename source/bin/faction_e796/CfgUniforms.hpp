@@ -5,7 +5,7 @@ class UniformItem;
 class 2035u_e796_CombatFatigues : Uniform_Base
 {
 	scope = PUBLIC;
-	displayName = "E-796 Combat Fatigues";
+	displayName = "E796 Combat Fatigues";
 	picture = "\A3\characters_f_beta\data\ui\icon_u_ir_combatuniform_rucamo_ca.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 

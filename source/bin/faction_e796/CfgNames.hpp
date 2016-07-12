@@ -3,7 +3,7 @@
 class GenericNames {
 	class 2035u_e796_names {
 		class FirstNames {
-			e796 = "E-796";
+			e796 = "E796";
 		};
 		class LastNames {
 			Contractor = "Contractor";

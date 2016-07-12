@@ -4,7 +4,7 @@ class Indep
 {
 	class 2035u_e796
 	{
-		name = "E-796";
+		name = "E796 PMC";
 		class Infantry
 		{
 			name = "Infantry";
