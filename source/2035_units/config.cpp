@@ -12,7 +12,7 @@ class CfgPatches {
 	class ADDON {
 		units[] = {};
 		weapons[] = {};
-		requiredVersion = 1.54;
+		requiredVersion = REQUIREDARMAVERSION;
 		requiredAddons[] = {};
 		author[] = {"Cody Burton"};
 		authorUrl = "https://github.com/CodyBurton";

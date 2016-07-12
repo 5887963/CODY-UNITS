@@ -12,7 +12,7 @@ class CfgPatches {
 	class faction_e796 {
 		units[] = {"2035u_e796_Contractor"};
 		weapons[] = {};
-		requiredVersion = 1.54;
+		requiredVersion = REQUIREDARMAVERSION;
 		requiredAddons[] = {};
 		author[] = {"Cody Burton"};
 		authorUrl = "https://github.com/CodyBurton";

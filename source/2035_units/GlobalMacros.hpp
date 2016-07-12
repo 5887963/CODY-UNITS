@@ -1,3 +1,5 @@
+//meta
+#define REQUIREDARMAVERSION 1.62
 //CanSee
 #define CANSEERADAR 1
 #define CANSEEEYE 2
