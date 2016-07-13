@@ -1,6 +1,3 @@
-class Vest_Base;
-class VestItem;
-
 class codyu_e796_CombatVest : Vest_Base {
 	displayName = "E796 Combat Vest";
 	picture = "\a3\characters_f\data\ui\icon_v_harnesso_brn_ca.paa";

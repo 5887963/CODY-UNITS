@@ -9,9 +9,9 @@
 #include "\cody_units\GlobalMacros.hpp"
 #include "\faction_wcf\LocalMacros.hpp"
 
-class CfgPatches {
+class cfgPatches {
 	class faction_wcf {
-		units[] = {"codyu_wcf_base","codyu_wcf_rifleman"};
+		units[] = {"codyu_wcf_base","codyu_wcf_rifleman"/*,"codyu_wcf_StealthBase","codyu_wcf_riflemanStealth"*/};
 		weapons[] = {};
 		requiredVersion = REQUIREDARMAVERSION;
 		requiredAddons[] = {};
@@ -20,32 +20,41 @@ class CfgPatches {
 	};
 };
 
-class CfgFactionClasses {
+class cfgFactionClasses {
 	class codyu_wcf {
 		displayName = "Western Coalition Forces";
 		priority = 1;
-		side = RESISTANCE;
+		side = WEST;
 		icon = "\faction_wcf\data\cfgfactionclasses_wcf_ca.paa";
 	};
 };
 
-class CfgVehicleClasses {
-	#include "CfgVehicleClasses.hpp"
+class cfgVehicleClasses {
+	#include "cfgVehicleClasses.hpp"
 };
 
-class CfgVehicles {
-	#include "CfgInfantry.hpp"
+class cfgVehicles {
+	class B_Soldier_base_F;
+	#include "cfgInfantry.hpp"
 };
 
-class CfgWeapons {
-	#include "CfgUniforms.hpp"
-	#include "CfgVests.hpp"
+class cfgWeapons {
+	class Uniform_Base;
+	class UniformItem;
+	class U_B_CombatUniform_mcam;
+	class VestItem;
+	class V_PlateCarrierSpec_blk;
+	class ItemCore;
+	class HeadgearItem;
+	#include "cfgUniforms.hpp"
+	#include "cfgVests.hpp"
+	#include "cfgHeadgear.hpp"
 };
 
-class CfgGroups {
-	#include "CfgGroups.hpp"
+class cfgGroups {
+	#include "cfgGroups.hpp"
 };
 
-class CfgWorlds {
-	#include "CfgNames.hpp"
+class cfgWorlds {
+	#include "cfgNames.hpp"
 };

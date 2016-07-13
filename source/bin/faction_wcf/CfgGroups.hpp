@@ -1,4 +1,4 @@
-class Indep {
+class Blufor {
 	class codyu_wcf {
 		name = "Western Coalition Forces";
 		class Infantry {

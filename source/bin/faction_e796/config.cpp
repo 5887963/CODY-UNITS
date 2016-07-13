@@ -9,7 +9,7 @@
 #include "\cody_units\GlobalMacros.hpp"
 #include "\faction_e796\LocalMacros.hpp"
 
-class CfgPatches {
+class cfgPatches {
 	class faction_e796 {
 		units[] = {"codyu_e796_Contractor"};
 		weapons[] = {};
@@ -20,7 +20,7 @@ class CfgPatches {
 	};
 };
 
-class CfgFactionClasses {
+class cfgFactionClasses {
 	class codyu_e796 {
 		displayName = "E796 PMC";
 		priority = 1;
@@ -29,23 +29,28 @@ class CfgFactionClasses {
 	};
 };
 
-class CfgVehicleClasses {
-	#include "CfgVehicleClasses.hpp"
+class cfgVehicleClasses {
+	#include "cfgVehicleClasses.hpp"
 };
 
-class CfgVehicles {
-	#include "CfgInfantry.hpp"
+class cfgVehicles {
+	class B_Soldier_base_F;
+	#include "cfgInfantry.hpp"
 };
 
-class CfgWeapons {
-	#include "CfgUniforms.hpp"
-	#include "CfgVests.hpp"
+class cfgWeapons {
+	class Uniform_Base;
+	class UniformItem;
+	class Vest_Base;
+	class VestItem;
+	#include "cfgUniforms.hpp"
+	#include "cfgVests.hpp"
 };
 
-class CfgGroups {
-	#include "CfgGroups.hpp"
+class cfgGroups {
+	#include "cfgGroups.hpp"
 };
 
-class CfgWorlds {
-	#include "CfgNames.hpp"
+class cfgWorlds {
+	#include "cfgNames.hpp"
 };

@@ -9,7 +9,7 @@
 #include "\cody_units\GlobalMacros.hpp"
 #include "\cody_units\LocalMacros.hpp"
 
-class CfgPatches {
+class cfgPatches {
 	class cody_units {
 		units[] = {};
 		weapons[] = {};
