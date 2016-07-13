@@ -1,5 +1,3 @@
-#include "\cody_units\GlobalMacros.hpp"
-
 class GenericNames {
 	class codyu_e796_names {
 		class FirstNames {

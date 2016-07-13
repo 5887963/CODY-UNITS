@@ -1,5 +1,3 @@
-#include "\cody_units\GlobalMacros.hpp"
-
 class Uniform_Base;
 class UniformItem;
 class codyu_e796_CombatFatigues : Uniform_Base

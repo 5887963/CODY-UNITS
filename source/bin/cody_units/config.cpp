@@ -7,9 +7,10 @@
 */
 
 #include "\cody_units\GlobalMacros.hpp"
+#include "\cody_units\LocalMacros.hpp"
 
 class CfgPatches {
-	class ADDON {
+	class cody_units {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = REQUIREDARMAVERSION;

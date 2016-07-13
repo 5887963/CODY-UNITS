@@ -1,5 +1,3 @@
-#include "\cody_units\GlobalMacros.hpp"
-
 class B_Soldier_base_F;
 class codyu_e796_Contractor : B_Soldier_base_F
 {

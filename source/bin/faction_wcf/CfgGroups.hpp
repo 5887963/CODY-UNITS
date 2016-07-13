@@ -1,5 +1,3 @@
-#include "\cody_units\GlobalMacros.hpp"
-
 class Indep
 {
 	class codyu_wcf

@@ -7,6 +7,7 @@
 */
 
 #include "\cody_units\GlobalMacros.hpp"
+#include "\faction_e796\LocalMacros.hpp"
 
 class CfgPatches {
 	class faction_e796 {

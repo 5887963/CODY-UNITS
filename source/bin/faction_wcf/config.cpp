@@ -7,10 +7,11 @@
 */
 
 #include "\cody_units\GlobalMacros.hpp"
+#include "\faction_wcf\LocalMacros.hpp"
 
 class CfgPatches {
 	class faction_wcf {
-		units[] = {"codyu_wcf_Rifleman"};
+		units[] = {"codyu_wcf_base","codyu_wcf_rifleman"};
 		weapons[] = {};
 		requiredVersion = REQUIREDARMAVERSION;
 		requiredAddons[] = {};
