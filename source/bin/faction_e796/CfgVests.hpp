@@ -1,4 +1,3 @@
-class ItemCore;
 class Vest_Base;
 class VestItem;
 
@@ -10,7 +9,6 @@ class codyu_e796_CombatVest : Vest_Base {
 	hiddenSelectionsTextures[] = { "\faction_e796\data\codyu_e796_CombatVest.paa" };
 	_generalmacro = "codyu_e796_CombatVest";
 	scope = PUBLIC;
-
 	class ItemInfo : VestItem {
 		uniformModel = "\A3\Characters_F_beta\indep\equip_ia_vest01.p3d";
 		hiddenSelections[] = { "camo" };

@@ -1,6 +1,5 @@
 class B_Soldier_base_F;
-class codyu_e796_Contractor : B_Soldier_base_F
-{
+class codyu_e796_Contractor : B_Soldier_base_F {
 	side = RESISTANCE;
 	faction = "codyu_e796";
 	vehicleclass = "codyu_e796_Men";

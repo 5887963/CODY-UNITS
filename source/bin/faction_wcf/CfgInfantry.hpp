@@ -29,6 +29,7 @@ class codyu_wcf_rifleman : codyu_wcf_base {
 	displayName = "Rifleman";
 	weapons[] = {"arifle_CTAR_blk_F","hgun_P07_F","Throw","Put"};
 	magazines[] = { 
-		mag_4(30Rnd_580x42_Mag_F)
+		mag_8(30Rnd_580x42_Mag_F),
+		mag_2(30Rnd_9x21_Mag)
 	};
 };
